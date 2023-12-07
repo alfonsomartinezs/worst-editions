@@ -1,0 +1,11 @@
+.blogPostLink{
+  display: flex;
+  justify-content: space-between;
+  color: inherit;
+  text-decoration: none;
+}
+
+.blogPostLink{
+  padding: .5rem 0;
+  border-bottom: 1px solid white;
+}

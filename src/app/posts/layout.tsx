@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import './globals.css'
 import styles from './page.module.css'
 
 export const metadata: Metadata = {
@@ -13,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${styles.main} grid-content`}>{children}</body>
-    </html>
+    <article className={`${styles.article} full-width grid-content`}>
+      {children}
+    </article>
   )
 }

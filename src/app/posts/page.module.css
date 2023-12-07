@@ -1,0 +1,15 @@
+.article{
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  padding: 1rem;
+  background-color: var(--black);
+}
+
+.article > h1,.article h2,.article h3{
+  background-color: var(--red);
+  grid-column: breakout !important; 
+}
+
+.article p{
+  line-height: 1.6;
+}
