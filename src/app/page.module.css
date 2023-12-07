@@ -1,52 +1,59 @@
 .title{
   display:block;
   font-size: 138px;
-  line-height: 1.5;
+  line-height: 1.2;
   width: 100%;
-  max-width: 12ch;
+  max-width: 13ch;
   display: grid;
-  grid-template-columns: [full-width-start] repeat(10,1fr) [full-width-end];
-  grid-auto-rows: max-content;
+  grid-template-columns: [full-width-start] repeat(9,1fr) [full-width-end];
+  grid-template-rows: min-content min-content min-content;
   overflow: hidden;
-  letter-spacing: .2em;
 }
 .title > .the{
   font-size: 14px;
+  grid-column: full-width;
   grid-row: 1;
 }
-.title > .fullWord{
+.title > .worst{
+  letter-spacing: .3em;
   grid-column: full-width;
-  /* background-color: white; */
-}
-.title > .squishyLetter{
-  /* background-color: white; */
   grid-row: 2;
-  /* text-align: center; */
+  background-color: white;
 }
-.title > .squishyLetter.w{
-  grid-column: 1/3;
+.title > .editions{
+  grid-column: full-width;
+  font-size: 125px;
+  /* background-color: white; */
+  letter-spacing: .2em;
 }
-.title > .squishyLetter.o{
-  grid-column: 3/5;
-}
-.title > .squishyLetter.r{
-  grid-column: 5/7;
-}
-.title > .squishyLetter.s{
-  grid-column: 7/9;
-}
-.title > .squishyLetter.t{
-  grid-column: 9/11;
-  text-align: right;
-}
-
 
 .gridBody{
   background-color: red;
   display: grid;
-  grid-template-columns: [full-width-start] 1fr [full-width-end];
+  grid-template-columns: 1rem [full-width-start] 1fr [full-width-end] 1rem;
 }
 
 .gridBody > *{
   grid-column: full-width;
+}
+.navList{
+  list-style-type: none;
+  display:flex;
+  width: 100%;
+}
+.navList > li{
+  flex: 1;
+}
+.navList a{
+  border: 2px solid black;
+  display:block;
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: .1em;
+}
+.navList a:hover{
+  color: white;
 }
