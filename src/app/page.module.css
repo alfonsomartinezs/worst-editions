@@ -1,14 +1,18 @@
 .title{
   display:block;
   font-size: 138px;
-  word-break: break-all;
   line-height: 1.5;
   width: 100%;
-  max-width: 9ch;
+  max-width: 12ch;
   display: grid;
   grid-template-columns: [full-width-start] repeat(10,1fr) [full-width-end];
   grid-auto-rows: max-content;
   overflow: hidden;
+  letter-spacing: .2em;
+}
+.title > .the{
+  font-size: 14px;
+  grid-row: 1;
 }
 .title > .fullWord{
   grid-column: full-width;
@@ -16,7 +20,7 @@
 }
 .title > .squishyLetter{
   /* background-color: white; */
-  grid-row: 1;
+  grid-row: 2;
   /* text-align: center; */
 }
 .title > .squishyLetter.w{
