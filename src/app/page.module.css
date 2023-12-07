@@ -40,12 +40,12 @@
   list-style-type: none;
   display:flex;
   width: 100%;
+  border: 2px solid black;
 }
 .navList > li{
   flex: 1;
 }
 .navList a{
-  border: 2px solid black;
   display:block;
   text-align: center;
   padding: 1rem;
@@ -53,6 +53,9 @@
   text-transform: uppercase;
   color: black;
   letter-spacing: .1em;
+}
+.navList li + li {
+  border-left: 2px solid black;
 }
 .navList a:hover{
   color: white;
