@@ -7,9 +7,9 @@ const page = () => {
       <Link href='/'>Back</Link>
       <p>A few years ago a friend and I made <Link href="https://shrikefound.itch.io/roulette">Roulette</Link>, a heist game based on Lasers and Feelings. Here are the rules.</p>
       <h1>Roulette</h1>
-      <p>This is a casino heist game for 2-4 players.</p>
-      <p>The objects) to be heisted is determined by the players.</p>
-      <p>The protections set in place are determined by the GM.</p>
+      <p>This is a casino heist game for 2-4 players. 
+        The object(s) to be heisted is determined by the players.
+        The protections set in place are determined by the GM.</p>
       <h2>The Job</h2>
       <p>The game is played over 18 scenes, during which the players need to achieve group and individual goals that will move the plot forward and get them closer to completing their heist. Goals could be disabling security systems, discerning a password, or even providing a smooth getaway.
         Scenes should typically be framed around the strengths and weaknesses of the characters) in the scene. Be sure to guide players by providing possible options, but be open to creative solutions.
