@@ -13,7 +13,9 @@ const page = () => {
       <h2>The Job</h2>
       <p>The game is played over 18 scenes, during which the players need to achieve group and individual goals that will move the plot forward and get them closer to completing their heist. Goals could be disabling security systems, discerning a password, or even providing a smooth getaway.
         Scenes should typically be framed around the strengths and weaknesses of the characters) in the scene. Be sure to guide players by providing possible options, but be open to creative solutions.
-        When failure happens, describe how it went wrong but also provide them with new ways of getting what they want. Failure in the LAST scene is the most consequential but not necessarily a failure of the heist. It just means that the individual couldn't get away and got compromised.
+        
+      </p>
+      <p>When failure happens, describe how it went wrong but also provide them with new ways of getting what they want. Failure in the LAST scene is the most consequential but not necessarily a failure of the heist. It just means that the individual couldn't get away and got compromised.
         If a single player escapes with the objective(s), mission success.
       </p>
       опо
