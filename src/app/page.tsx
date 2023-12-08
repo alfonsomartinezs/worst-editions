@@ -15,7 +15,7 @@ export default function Home() {
       <section className={styles.blogPostSection}>
         <ul className={styles.blogPostList}>
           <li><BlogPostLink name="Drift RPG" type="games"/></li>
-          <li><BlogPostLink name="Dead Man's Hand" type="games"/></li>
+          <li><BlogPostLink name="Dead Man's Hand RPG" type="games"/></li>
         </ul>
       </section>
     </main>

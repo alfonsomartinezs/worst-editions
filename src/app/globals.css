@@ -127,3 +127,40 @@ h3{
 h4{
   font-size: var(--fs-h4);
 }
+
+
+table{
+  margin-top: 1rem;
+  text-align: left;
+  border: 1px solid white;
+  padding: 1rem;
+}
+th{
+  text-align: left;
+}
+table, th, td{
+  font-family: 'Courier New', Courier, monospace;
+  border-spacing: 2rem 0;
+}
+th, td{
+  /* border-left: 1px solid white; */
+}
+
+thead{
+  border: 1px solid white;
+  background-color: red;
+}
+
+.table.col-3 td:nth-last-of-type(3n),.table.col-3 th:nth-last-of-type(3n){
+  text-align: right;
+}
+.table.col-2 td:nth-last-of-type(2n),.table.col-2 th:nth-last-of-type(2n){
+  text-align: right;
+}
+
+code{
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid white;
+  padding: 1rem;
+  margin-top: 1rem;
+}
