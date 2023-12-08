@@ -150,6 +150,13 @@ td,th{
   white-space: nowrap;
 }
 
+table.wrap td{
+  white-space: nowrap;
+}
+table.wrap td:nth-of-type(2n){
+  white-space: initial;
+}
+
 thead{
   border: 1px solid white;
   background-color: red;
