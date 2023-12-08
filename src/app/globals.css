@@ -36,7 +36,7 @@ ul{
 }
 
 .grid-content{
-  --padding: 2rem;
+  --padding: 1rem;
   --double-padding: var(--padding) * 2;
   --content-max-width: 70ch;
   --content-width: min(var(--content-max-width),100% - var(--double-padding));
@@ -130,10 +130,14 @@ h4{
 
 
 table{
+  display: block;
   margin-top: 1rem;
   text-align: left;
   border: 1px solid white;
   padding: 1rem;
+  overflow-x: scroll;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 th{
   text-align: left;
@@ -142,8 +146,8 @@ table, th, td{
   font-family: 'Courier New', Courier, monospace;
   border-spacing: 2rem 0;
 }
-th, td{
-  /* border-left: 1px solid white; */
+td,th{
+  white-space: nowrap;
 }
 
 thead{
