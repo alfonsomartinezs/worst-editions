@@ -14,7 +14,8 @@ export default function Home() {
       <p>Are a collection of my unedited and unplaytested tabletop roleplaying games, notes, and generators, shared online as a way to combat debilitating perfectionism.</p><p> Early Release Beta pre Alpha. Just vibes. The worst. It can only get better from here.</p>
       <section className={styles.blogPostSection}>
         <ul className={styles.blogPostList}>
-          <li><BlogPostLink name="Dead Man's Hand" type="games"/></li>
+        <li><BlogPostLink name="Dead Man's Hand Verbs" type="games"/></li>
+          <li><BlogPostLink name="Dead Man's Hand Part 1" type="games"/></li>
           <li><BlogPostLink name="Drift" type="games"/></li>
           <li><BlogPostLink name="Roulette" type="games"/></li>
         </ul>
